@@ -571,3 +571,22 @@
   }
 
 }
+
+/* CONTACT BUTTONS */
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button-call {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  white-space: nowrap;
+}
+
+.button-call:hover {
+  background: white;
+  color: var(--ink);
+}
